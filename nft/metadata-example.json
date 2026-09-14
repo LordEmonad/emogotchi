@@ -1,0 +1,52 @@
+{
+  "name": "Emogotchi #1",
+  "description": "An Emogotchi on Monad. Feed it, wash it, play with it, let it sleep. Every action costs MON that is bought into EMO and burned. Neglect it and it dies; 1000 MON brings it back.",
+  "image": "https://emogotchi.example/nft/portrait-1024.png",
+  "external_url": "https://emogotchi.example/pet/1",
+  "animation_url": "https://emogotchi.example/pet/1",
+  "background_color": "24123F",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "unnamed"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "content"
+    },
+    {
+      "trait_type": "Food",
+      "display_type": "boost_percentage",
+      "value": 72
+    },
+    {
+      "trait_type": "Clean",
+      "display_type": "boost_percentage",
+      "value": 80
+    },
+    {
+      "trait_type": "Fun",
+      "display_type": "boost_percentage",
+      "value": 64
+    },
+    {
+      "trait_type": "Energy",
+      "display_type": "boost_percentage",
+      "value": 85
+    },
+    {
+      "trait_type": "Alive",
+      "value": "yes"
+    },
+    {
+      "trait_type": "EMO burned",
+      "display_type": "number",
+      "value": 0
+    },
+    {
+      "trait_type": "Born",
+      "display_type": "date",
+      "value": 1789000000
+    }
+  ]
+}
