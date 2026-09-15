@@ -1,9 +1,10 @@
 {
-  "root": "0x884320a6b5fa502030ab03e915a8febb568e086ca31819687362b5bcfb4f9bd2",
-  "count": 64,
-  "generatedAt": "2026-09-15T17:25:43.278Z",
+  "root": "0x602921939c5731b2c700bddae64d324e2e7dbc94fe9da22b27af2b3f6dcc503e",
+  "count": 42390,
+  "generatedAt": "2026-09-15T19:15:19.417Z",
   "lists": [
-    "/private/tmp/claude-501/-Volumes-BJ-code-emonad-projects-cats-crown/c656758b-76f4-4ee5-aefc-9ded7e74f52f/scratchpad/testnet-claim-list.csv"
+    "snapshot/claim-allowlist.csv",
+    "/private/tmp/claude-501/-Volumes-BJ-code-emonad-projects-cats-crown/c656758b-76f4-4ee5-aefc-9ded7e74f52f/scratchpad/test-wallets.csv"
   ],
-  "excluded": 0
+  "excluded": 6759
 }
