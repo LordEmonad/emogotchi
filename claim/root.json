@@ -1,10 +1,9 @@
 {
-  "root": "0x602921939c5731b2c700bddae64d324e2e7dbc94fe9da22b27af2b3f6dcc503e",
-  "count": 42390,
-  "generatedAt": "2026-09-15T19:15:19.417Z",
+  "root": "0x8c5c0a55204405a0a7467c0335c5d44a8f086a8e710eaeac926c169b9c103ff9",
+  "count": 42388,
+  "generatedAt": "2026-09-15T21:27:06.739Z",
   "lists": [
-    "snapshot/claim-allowlist.csv",
-    "/private/tmp/claude-501/-Volumes-BJ-code-emonad-projects-cats-crown/c656758b-76f4-4ee5-aefc-9ded7e74f52f/scratchpad/test-wallets.csv"
+    "snapshot/claim-allowlist.csv"
   ],
   "excluded": 6759
 }
