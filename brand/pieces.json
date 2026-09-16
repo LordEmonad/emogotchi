@@ -7,9 +7,9 @@
   },
   {
     "file": "opensea-banner.png",
-    "use": "OpenSea / Poply banner · 2800×700 (4:1, no text: the logo covers the bottom-left)",
-    "px": "2800×700",
-    "kb": 703
+    "use": "OpenSea / Poply header · 2400×900 (8:3; the middle 16:9 is what a phone keeps)",
+    "px": "2400×900",
+    "kb": 771
   },
   {
     "file": "opensea-featured.png",
