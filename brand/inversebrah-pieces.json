@@ -1,0 +1,38 @@
+[
+  {
+    "file": "inversebrah-x-header.png",
+    "use": "X header · 1500×500 (3:1)",
+    "px": "3000×1000",
+    "kb": 923
+  },
+  {
+    "file": "inversebrah-opensea-banner.png",
+    "use": "OpenSea / Poply header · 2400×900 (8:3; the middle 16:9 is what a phone keeps)",
+    "px": "2400×900",
+    "kb": 685
+  },
+  {
+    "file": "inversebrah-opensea-featured.png",
+    "use": "OpenSea featured image · 1200×800 (3:2)",
+    "px": "1200×800",
+    "kb": 414
+  },
+  {
+    "file": "inversebrah-hero-16x9.png",
+    "use": "Hero 16:9 · 1920×1080 (Discord banner, splash, decks)",
+    "px": "1920×1080",
+    "kb": 731
+  },
+  {
+    "file": "inversebrah-logo.png",
+    "use": "Logo / avatar · 1024×1024 (X, Telegram, Discord, MonadVision cover, OpenSea logo)",
+    "px": "1024×1024",
+    "kb": 412
+  },
+  {
+    "file": "inversebrah-logo-transparent.png",
+    "use": "Logo on transparent · 1024×1024 (stickers, overlays)",
+    "px": "1024×1024",
+    "kb": 79
+  }
+]
