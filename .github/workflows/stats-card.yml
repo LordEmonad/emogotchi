@@ -21,6 +21,11 @@ jobs:
         run: npm install --no-save --no-audit --no-fund puppeteer@24
       - name: Draw the card
         run: node .github/stats-card/og-stats.mjs --site . --out brand/stats-og.png
+      - uses: actions/upload-artifact@v4   # so a manual run can be eyeballed from the Actions tab
+        with:
+          name: stats-card
+          path: brand/stats-og.png
+          retention-days: 3
       - name: Commit it if it changed
         run: |
           git config user.name "github-actions[bot]"
