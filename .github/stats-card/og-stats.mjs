@@ -8,12 +8,12 @@
 import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { dirname } from 'node:path';
+import { dirname, resolve } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url)) + '/';
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d; };
-const site = arg('--site', here + '../apps/web/public').replace(/\/?$/, '/');
-const out = arg('--out', site + 'brand/stats-og.png');
+const site = resolve(arg('--site', here + '../apps/web/public')) + '/';   // absolute: the portraits are file:// URLs
+const out = resolve(arg('--out', site + 'brand/stats-og.png'));
 const font = existsSync(here + 'space-grotesk.woff2') ? here + 'space-grotesk.woff2' : here + '../node_modules/.pnpm/@fontsource-variable+space-grotesk@5.3.0/node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2';
 const heart = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><g id="heart"><path d="M20.02,35.42 C19.29,34.88 16.94,33.32 15.60,32.20 C14.26,31.08 13.04,29.79 11.96,28.71 C10.89,27.62 9.96,26.72 9.15,25.68 C8.33,24.64 7.61,23.52 7.06,22.46 C6.51,21.41 6.13,20.32 5.85,19.36 C5.57,18.40 5.43,17.60 5.39,16.72 C5.35,15.83 5.42,14.94 5.61,14.06 C5.80,13.17 6.14,12.28 6.53,11.41 C6.92,10.55 7.71,9.28 7.94,8.86 C8.38,8.47 9.59,6.96 10.54,6.54 C11.50,6.12 12.64,6.21 13.67,6.36 C14.69,6.52 15.80,6.92 16.69,7.47 C17.57,8.02 18.40,8.79 18.96,9.63 C19.53,10.47 19.89,12.02 20.07,12.50 C20.26,12.05 20.63,10.58 21.21,9.77 C21.79,8.95 22.69,8.12 23.55,7.61 C24.40,7.09 25.41,6.75 26.34,6.68 C27.28,6.60 28.20,6.76 29.15,7.18 C30.10,7.60 31.55,8.86 32.03,9.20 C32.31,9.58 33.26,10.71 33.68,11.50 C34.11,12.30 34.42,13.13 34.58,13.97 C34.75,14.81 34.80,15.66 34.66,16.52 C34.53,17.38 34.13,18.19 33.76,19.14 C33.40,20.08 33.01,21.07 32.48,22.17 C31.95,23.27 31.37,24.56 30.61,25.74 C29.84,26.92 28.92,28.17 27.89,29.26 C26.86,30.34 25.73,31.23 24.42,32.26 C23.11,33.28 20.76,34.89 20.02,35.42 Z" fill="#E84D7F" stroke="#000000" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" /><path d="M10.65,12.90 C10.79,12.61 11.20,11.65 11.54,11.15 C11.88,10.65 12.24,10.24 12.68,9.92 C13.12,9.60 13.62,9.38 14.20,9.25 C14.77,9.11 15.80,9.14 16.12,9.12" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/></g></svg>`;
 
