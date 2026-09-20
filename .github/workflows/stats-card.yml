@@ -1,6 +1,14 @@
 # Redraws the /stats share card (brand/stats-og.png) from the live index once a day, so the EMO-burned number on
 # the card keeps up between site deploys. Source of truth: tools/stats-card.yml and tools/og-stats.mjs in the
 # emo-pets monorepo; pages-deploy.sh copies them here. Run by hand from the Actions tab (workflow_dispatch).
+#
+# SECURITY. This job can write to the repository that IS emogotchi.emonad.lol — the origin that serves the site and,
+# once it ships, derives passkey account private keys in the visitor's browser. So it installs NOTHING: it draws the
+# card with the runner's preinstalled Chrome through og-stats.mjs's own fallback, and the actions are pinned to
+# commit SHAs rather than moving tags. An earlier version ran `npm install puppeteer@24` here, which put every
+# package in puppeteer's transitive tree one bad release away from rewriting the site's JavaScript, with no human
+# in between. A CSP cannot help with that: injected first-party code loads as 'self'.
+# If this ever needs a dependency again, it needs a committed lockfile and `npm ci`, not `npm install`.
 name: Stats card
 on:
   schedule:
@@ -13,22 +21,29 @@ jobs:
   card:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # v4
+        with:
+          persist-credentials: false   # no write token left in .git/config while anything else runs
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020   # v4
         with:
           node-version: 22
-      - name: Install a browser
-        run: npm install --no-save --no-audit --no-fund puppeteer@24
       - name: Draw the card
+        env:
+          CHROME: google-chrome   # preinstalled on ubuntu-latest; og-stats.mjs falls back to it when puppeteer is absent
         run: node .github/stats-card/og-stats.mjs --site . --out brand/stats-og.png
-      - uses: actions/upload-artifact@v4   # so a manual run can be eyeballed from the Actions tab
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02   # v4
         with:
           name: stats-card
           path: brand/stats-og.png
           retention-days: 3
       - name: Commit it if it changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add brand/stats-og.png brand/stats-og.txt
-          git diff --cached --quiet -- brand/stats-og.txt && echo "the number on the card has not changed" || (git commit -q -m "Stats card: $(cat brand/stats-og.txt) EMO, $(date -u +%F)" && git push -q)
+          git diff --cached --quiet -- brand/stats-og.txt && echo "the number on the card has not changed" || (
+            git commit -q -m "Stats card: $(cat brand/stats-og.txt) EMO, $(date -u +%F)"
+            git push -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF_NAME}
+          )

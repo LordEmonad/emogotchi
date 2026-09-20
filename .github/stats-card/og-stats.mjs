@@ -92,7 +92,8 @@ if (puppeteer) {
   await p.goto('file://' + tmp, { waitUntil: 'networkidle0' }); await p.evaluate(() => document.fonts.ready);
   await p.screenshot({ path: out }); await b.close();
 } else {
-  execFileSync('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=1200,630', '--force-device-scale-factor=2', `--screenshot=${out}`, '--virtual-time-budget=4000', 'file://' + tmp], { stdio: 'ignore' });
+  // CHROME lets CI point at the runner's preinstalled browser, so the card can be drawn with no npm install
+  execFileSync(process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=1200,630', '--force-device-scale-factor=2', `--screenshot=${out}`, '--virtual-time-budget=4000', 'file://' + tmp], { stdio: 'ignore' });
 }
 unlinkSync(tmp);
 writeFileSync(out.replace(/\.png$/, '.txt'), `${emo}\n`);   // the number on the card, so CI only commits when it changed

@@ -1,0 +1,36 @@
+# The second poker, on GitHub's infrastructure: every 5 minutes, independent of Cloudflare. Lives in the Pages repo as
+# .github/workflows/autocare-poke.yml (copied there by tools/pages-deploy.sh with tools/autocare-poke.mjs and
+# worker/keeper.js under .github/autocare/). Secrets: AUTOCARE_KEEPER_KEY; variable: AUTOCARE_ADDRESS.
+#
+# SECURITY, BEFORE THIS EVER RUNS. This job holds a signing key and lives in the repo that serves the site, so
+# whatever it installs runs next to that key. The actions are pinned to commit SHAs and viem to an exact version,
+# but an exact top-level pin does NOT pin viem's transitive tree: an `npm install` here still resolves those fresh
+# on every run. **Commit a lockfile under .github/autocare/ and switch this to `npm ci --ignore-scripts` before
+# Autocare is deployed.** The keeper wallet should hold gas and nothing else, so a leak costs gas, not funds.
+name: autocare-poke
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: autocare-poke
+  cancel-in-progress: false
+jobs:
+  poke:
+    if: ${{ vars.AUTOCARE_ADDRESS != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020   # v4
+        with:
+          node-version: 22
+      - run: npm install --no-save --ignore-scripts viem@2.56.5
+        working-directory: .github/autocare
+      - run: node autocare-poke.mjs
+        working-directory: .github/autocare
+        env:
+          AUTOCARE_ADDRESS: ${{ vars.AUTOCARE_ADDRESS }}
+          AUTOCARE_KEEPER_KEY: ${{ secrets.AUTOCARE_KEEPER_KEY }}
