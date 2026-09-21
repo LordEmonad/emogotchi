@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Standalone: no script anywhere, and none allowed. This page lives on the origin that holds passkey account
+     keys, so the cheapest correct thing is a document that cannot execute anything at all. Numbers are a baked
+     snapshot, which is also what you want in a meeting: they cannot move mid-sentence. -->
+<!-- frame-ancestors is deliberately absent: it cannot be delivered by a meta tag and only produces a console
+     warning. Framing protection for this origin is the Cloudflare Transform Rule, which is an operator job. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<title>Emogotchi — Airdrop Campaign Brief</title>
+<style>
+  :root{
+    --ink:#F8F8FF; --dim:rgba(248,248,255,.68); --faint:rgba(248,248,255,.42);
+    --bg:#140F18; --card:rgba(80,40,88,.26); --line:rgba(184,148,216,.18);
+    --cat:#E84D7F; --frok:#5DA03A; --shop:#8F6FC8; --gold:#E8C86B;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 0 80px; background:var(--bg); color:var(--ink);
+    font:15px/1.6 "Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(1100px 620px at 50% -12%, rgba(232,77,127,.16), transparent 62%);
+  }
+  .wrap{max-width:1000px; margin:0 auto; padding-inline:20px}
+  header{padding:64px 0 8px}
+  .eyebrow{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--cat); font-weight:700}
+  h1{font-size:clamp(30px,5.5vw,50px); line-height:1.06; margin:14px 0 12px; letter-spacing:-.02em}
+  .lede{font-size:clamp(16px,2.2vw,19px); color:var(--dim); max-width:66ch; margin:0}
+  .asof{margin-top:22px; font-family:var(--mono); font-size:11.5px; color:var(--faint)}
+  h2{font-size:12px; letter-spacing:.15em; text-transform:uppercase; color:var(--faint);
+     margin:56px 0 18px; padding-bottom:10px; border-bottom:1px solid var(--line); font-weight:700}
+  h3{font-size:17px; margin:0 0 6px; letter-spacing:-.01em}
+  p{margin:0 0 12px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 22px}
+  .grid{display:grid; gap:12px}
+  .g4{grid-template-columns:repeat(4,1fr)} .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  .stat{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 18px 16px}
+  .stat .n{font-size:clamp(23px,3.4vw,31px); font-weight:700; letter-spacing:-.02em; line-height:1.1; font-variant-numeric:tabular-nums}
+  .stat .k{font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--faint); margin-top:8px; font-weight:600}
+  .stat .s{font-size:12.5px; color:var(--dim); margin-top:7px; line-height:1.45}
+  .cat .n{color:var(--cat)} .frok .n{color:var(--frok)} .shop .n{color:var(--shop)} .gold .n{color:var(--gold)}
+  .hero-alert{border:1px solid rgba(232,77,127,.45); background:linear-gradient(180deg,rgba(232,77,127,.13),rgba(232,77,127,.05));
+              border-radius:20px; padding:26px 26px 22px; margin:34px 0 0}
+  .hero-alert .when{font-family:var(--mono); font-size:12px; color:var(--cat); letter-spacing:.08em; text-transform:uppercase; font-weight:700}
+  .hero-alert h3{font-size:clamp(20px,3vw,26px); margin:10px 0 10px}
+  .arrow{display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin-top:18px; padding-top:18px; border-top:1px solid rgba(232,77,127,.25)}
+  .arrow .from,.arrow .to{font-variant-numeric:tabular-nums}
+  .arrow .from{font-size:26px; font-weight:700; color:var(--faint); text-decoration:line-through; text-decoration-thickness:2px}
+  .arrow .sep{color:var(--cat); font-size:22px}
+  .arrow .to{font-size:34px; font-weight:700; color:var(--cat)}
+  .arrow .lbl{font-size:12.5px; color:var(--dim); flex:1; min-width:200px}
+  table{width:100%; border-collapse:collapse; font-size:14px}
+  th{text-align:left; font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--faint);
+     padding:0 12px 10px 0; font-weight:700; border-bottom:1px solid var(--line)}
+  td{padding:13px 12px 13px 0; border-bottom:1px solid rgba(184,148,216,.09); vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  td.num{font-variant-numeric:tabular-nums; font-weight:700; white-space:nowrap}
+  .tier{font-weight:700} .tier small{display:block; font-weight:400; font-size:12.5px; color:var(--dim); margin-top:3px}
+  .pill{display:inline-block; padding:3px 9px; border-radius:99px; font-size:10.5px; font-weight:700;
+        letter-spacing:.06em; text-transform:uppercase; white-space:nowrap}
+  .p-gold{background:rgba(232,200,107,.14); color:var(--gold); border:1px solid rgba(232,200,107,.35)}
+  .p-cat{background:rgba(232,77,127,.13); color:var(--cat); border:1px solid rgba(232,77,127,.32)}
+  .p-frok{background:rgba(93,160,58,.14); color:#8FCB70; border:1px solid rgba(93,160,58,.36)}
+  .p-open{background:rgba(184,148,216,.12); color:#C8A8E0; border:1px solid rgba(184,148,216,.3)}
+  ul{margin:0; padding-left:20px} li{margin-bottom:9px; color:var(--dim)} li b{color:var(--ink)}
+  .note{font-size:13px; color:var(--dim); background:rgba(80,40,88,.2); border:1px solid var(--line);
+        border-left:3px solid var(--cat); border-radius:10px; padding:14px 16px; margin-top:16px}
+  .note.warn{border-left-color:var(--gold)}
+  .mono{font-family:var(--mono); font-size:12px; color:var(--dim); overflow-wrap:anywhere}
+  footer{margin-top:64px; padding-top:22px; border-top:1px solid var(--line); font-size:12.5px; color:var(--faint)}
+  .split{display:flex; gap:10px; align-items:baseline; flex-wrap:wrap}
+  .split .tag{font-size:11px; letter-spacing:.08em; text-transform:uppercase; font-weight:700}
+  .tag.c{color:var(--cat)} .tag.f{color:var(--frok)}
+  .scroll{overflow-x:auto}
+  @media (max-width:860px){ .g4{grid-template-columns:repeat(2,1fr)} .g3,.g2{grid-template-columns:1fr} header{padding-top:40px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Sponsor brief · Confidential draft</div>
+  <h1>82,518 wallets.<br>Three days until 82,281 of their cats die.</h1>
+  <p class="lede">Emogotchi is an on-chain tamagotchi on Monad — the art, the meters and the whole record live in the contract. It was airdropped to 82,423 Monad wallets at launch. On <b>24 September</b> almost every untouched cat starves on-chain, permanently, and the survivors become the rarest thing in the collection. We want to put a MON airdrop behind that moment.</p>
+  <div class="asof">Snapshot: 21 September 2026, 18:58 UTC · every figure read from Monad mainnet or the public stats index</div>
+</header>
+
+<div class="hero-alert">
+  <div class="when">The Great Starvation · 24 Sep 2026, 21:16 UTC</div>
+  <h3>A deadline the contract enforces, not us.</h3>
+  <p style="color:var(--dim);margin:0">Every airdropped cat got a seven-day welcome, then a 48-hour hunger clock. <b style="color:var(--ink)">82,281 cats have never been fed once</b> and die within a five-minute window on Wednesday. Nothing can stop it — the contract is immutable and ownerless. Death is written to the cat forever.</p>
+  <div class="arrow">
+    <span class="from">82,439</span>
+    <span class="sep">→</span>
+    <span class="to">~158</span>
+    <span class="lbl"><b style="color:var(--ink)">Cats that have never died.</b> Today that is 99.9% of the collection and means nothing. On Thursday it is about <b style="color:var(--ink)">0.19%</b> — and it can never be minted, bought back or repaired.</span>
+  </div>
+</div>
+
+<div class="note warn"><b>The single decision that matters:</b> snapshot <b>after</b> 24 September. A snapshot taken today rewards 82,439 wallets for doing nothing. Taken Thursday, it rewards ~158 wallets for a week of daily attention — and gives every sponsor a story with a clock on it.</div>
+
+<h2>Reach</h2>
+<div class="grid g4">
+  <div class="stat cat"><div class="n">82,518</div><div class="k">Cat holders</div><div class="s">Distinct wallets. The launch airdrop was one cat per address, so this is close to one cat per human.</div></div>
+  <div class="stat cat"><div class="n">82,528</div><div class="k">Cats in existence</div><div class="s">82,423 airdropped at launch, 105 claimed since. Hard cap 100,000, minting is closed to the public forever.</div></div>
+  <div class="stat frok"><div class="n">294</div><div class="k">Inversegotchi (froks)</div><div class="s">Free mint, one per wallet, no cap. 287 distinct holders. The second pet, launched 18 Sep.</div></div>
+  <div class="stat shop"><div class="n">548</div><div class="k">Item claims</div><div class="s">Across three on-chain cosmetics. 91 / 113 / 103 distinct wallets per item.</div></div>
+</div>
+
+<h2>Proposed tiers</h2>
+<div class="card scroll">
+<table>
+  <thead><tr><th>Tier</th><th>Qualifying today</th><th>After 24 Sep</th><th>Signal</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="tier">Never died <span class="pill p-gold">Headline</span><small>Alive by the contract's own clock, never once revived</small></td>
+      <td class="num" style="color:var(--faint)">82,439</td>
+      <td class="num" style="color:var(--cat)">~158</td>
+      <td>Fed their cat every single day since launch. Unforgeable and unrecoverable once lost.</td>
+    </tr>
+    <tr>
+      <td class="tier">Revived <span class="pill p-cat">Whale</span><small>Died, then paid to bring it back</small></td>
+      <td class="num" style="color:var(--faint)">1</td>
+      <td class="num">grows sharply</td>
+      <td>Revive costs <b>1,000 MON</b>. Self-selecting for conviction — and 82,281 cats become revivable on Wednesday.</td>
+    </tr>
+    <tr>
+      <td class="tier">Named <span class="pill p-cat">Committed</span><small>Paid to give the cat a name on chain</small></td>
+      <td class="num">157</td>
+      <td class="num">157+</td>
+      <td>10 MON each, ~1,570 MON committed. Naming is the clearest "this is mine" signal in the game.</td>
+    </tr>
+    <tr>
+      <td class="tier">Crowned <span class="pill p-gold">Elite</span><small>Top 100 care scores, live on chain</small></td>
+      <td class="num">100</td>
+      <td class="num">100</td>
+      <td>Requires a full week of history before eligibility. Re-ranks on every paid care.</td>
+    </tr>
+    <tr>
+      <td class="tier">Frok holders <span class="pill p-frok">Small tier</span><small>Holds an Inversegotchi</small></td>
+      <td class="num" style="color:var(--frok)">287</td>
+      <td class="num" style="color:var(--frok)">287+</td>
+      <td>Free to mint, so weak as a wealth signal — but a clean marker of "showed up after launch".</td>
+    </tr>
+    <tr>
+      <td class="tier">EMO holders <span class="pill p-open">Threshold TBD</span><small>$EMO, the token every interaction burns</small></td>
+      <td class="num" style="color:var(--faint)">—</td>
+      <td class="num" style="color:var(--faint)">—</td>
+      <td>Needs a holder snapshot before thresholds can be set. Token: <span class="mono">0x81A224F8…7777</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="note">Tier sizes above are measured, not projected, except the two marked. "~158" is <b>82,439 never-died today minus the 82,281 in the starvation wave</b> — the wave is the set of cats that have never been fed, read from the contract.</div>
+
+<h2>Money already moved</h2>
+<div class="grid g4">
+  <div class="stat gold"><div class="n">105,030</div><div class="k">EMO burned</div><div class="s">Bought off the market and sent to the dead address by the game contracts. 97,092 by cats, 7,938 by froks.</div></div>
+  <div class="stat"><div class="n">5,063</div><div class="k">MON spent by players</div><div class="s">4,703 on cats, 360 on froks. Real fees, not volume — 80% of it buys and burns EMO.</div></div>
+  <div class="stat"><div class="n">3,750</div><div class="k">MON converted to EMO</div><div class="s">Across 226 permissionless burn cranks. Largest single crank: 510 MON → 14,418 EMO.</div></div>
+  <div class="stat"><div class="n">2,830</div><div class="k">Care actions on chain</div><div class="s">Every feed, wash, play, nap and cleanup is its own transaction, counted forever on the pet.</div></div>
+</div>
+
+<h2>Engagement — the honest picture</h2>
+<div class="grid g2">
+  <div class="card">
+    <h3>What is real</h3>
+    <ul>
+      <li><b>242 wallets</b> have paid to care for a pet — 164 on cats, 78 on froks.</li>
+      <li><b>294 wallets</b> active in the last 7 days; <b>111</b> in the last 24 hours.</li>
+      <li><b>1,385 pets</b> given — gas-only, so pure affection.</li>
+      <li>Retention is daily by design: meters drain over 24 hours, so caring is a habit, not a one-off.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>What is not, and why that is the point</h3>
+    <p>Of 82,518 cat holders, about <b>0.2%</b> have ever touched their pet. Almost everyone was airdropped a cat and never came back.</p>
+    <p style="margin-bottom:0">That is precisely the asset. <b>82,281 wallets are one notification away from a dead pet</b> and a reason to return — and a funded airdrop is the notification. Nobody has to acquire an audience here; it already exists, holds the NFT, and is about to have something happen to it.</p>
+  </div>
+</div>
+
+<h2>Why the moment works</h2>
+<div class="grid g3">
+  <div class="card"><h3>A deadline nobody controls</h3><p style="margin:0;color:var(--dim)">The starvation is contract-enforced and public. No one — including us — can delay, cancel or fake it. Campaigns built on real deadlines do not need urgency manufactured.</p></div>
+  <div class="card"><h3>Scarcity that cannot be gamed</h3><p style="margin:0;color:var(--dim)">You cannot buy your way into "never died" after Wednesday. The cohort closes permanently and is verifiable by anyone from chain state.</p></div>
+  <div class="card"><h3>No wallet needed to join</h3><p style="margin:0;color:var(--dim)">Since 20 Sep a visitor can make a real Monad account from Face ID — built on mera by Category Labs — and we cover the gas for their first actions. A sponsor's audience can go from a tweet to on-chain in four taps.</p></div>
+</div>
+
+<h2>What we are asking for</h2>
+<div class="card">
+  <ul style="margin-bottom:0">
+    <li><b>MON to fund the airdrop pool</b>, paid to holders by tier. Amount and thresholds set with sponsors.</li>
+    <li><b>Coordinated announcement.</b> Every sponsor posts on the same day; the campaign runs to the snapshot, then pays out.</li>
+    <li><b>Co-branding across the event</b> — the campaign page, the claim flow and the post-mortem numbers.</li>
+  </ul>
+  <div class="note" style="margin-bottom:0"><b>What sponsors get back:</b> a verifiable, on-chain audience of 82,518 Monad wallets, a reason for them to transact on a specific day, and a story with a countdown that the chain itself enforces.</div>
+</div>
+
+<h2>Verify any of this yourself</h2>
+<div class="card">
+  <p style="color:var(--dim)">Everything above is public. Nothing here depends on trusting us.</p>
+  <table>
+    <tbody>
+      <tr><td>Emogotchi (cats)</td><td class="mono">0xC0A0808cbAF507b80df92b22feD8D3810eAB45d5</td></tr>
+      <tr><td>Inversegotchi (froks)</td><td class="mono">0xB841cc9A4058345cc0B5913F9e966F0C06ab49c6</td></tr>
+      <tr><td>$EMO token</td><td class="mono">0x81A224F8A62f52BdE942dBF23A56df77A10b7777</td></tr>
+      <tr><td>Item shop</td><td class="mono">0x09b0CD33E1a4905265A12BD10989F5C29d3b1B91</td></tr>
+      <tr><td>Live stats, as JSON</td><td class="mono">emogotchi.emonad.lol/api/stats</td></tr>
+      <tr><td>Starvation clock, as JSON</td><td class="mono">emogotchi.emonad.lol/api/starvation</td></tr>
+    </tbody>
+  </table>
+  <div class="note" style="margin-bottom:0">Both game contracts are <b>immutable and ownerless</b> — no admin, no pause, no upgrade, no withdraw. MON can only ever leave to the burn address or to fixed treasury and team addresses. A sponsor's due diligence should confirm this, and it will.</div>
+</div>
+
+<footer>
+  Emogotchi · an Emonad thing · $EMO on Monad · emogotchi.emonad.lol<br>
+  Figures are a snapshot at 21 Sep 2026 18:58 UTC and move constantly. Tier counts marked "after 24 Sep" are arithmetic on measured values, not forecasts of behaviour.
+</footer>
+
+</div>
+</body>
+</html>
