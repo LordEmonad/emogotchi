@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' https://rpc.monad.xyz https://*.walletconnect.com https://*.walletconnect.org wss://*.walletconnect.com wss://*.walletconnect.org https://*.web3modal.org https://*.reown.com wss://*.reown.com; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' https://rpc.monad.xyz https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.walletconnect.com https://*.walletconnect.org wss://*.walletconnect.com wss://*.walletconnect.org https://*.web3modal.org https://*.reown.com wss://*.reown.com; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#000000" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Google Analytics, same property as emonad.lol (G-4QWLXTDH20). The bootstrap lives in /ga.js rather than
+         inline so that script-src never needs 'unsafe-inline' on an origin that holds passkey keys. See ga.js. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4QWLXTDH20"></script>
+    <script src="/ga.js"></script>
     <meta name="description" content="A frok that lives in your wallet, on Monad. Mint him free, one per wallet. Feed him, screenshot him, slap him, squeeze him, set him on fire: all of it free, all of it on chain." />
     <meta property="og:title" content="inversebrah · Inversegotchi" />
     <meta property="og:description" content="A frok that lives in your wallet, on Monad. Mint him free, one per wallet. Feed him, screenshot him, slap him, squeeze him, set him on fire: all of it free, all of it on chain." />
