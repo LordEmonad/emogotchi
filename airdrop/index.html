@@ -7,8 +7,11 @@
      keys, so the cheapest correct thing is a document that cannot execute anything at all. Numbers are a baked
      snapshot, which is also what you want in a meeting: they cannot move mid-sentence. -->
 <!-- frame-ancestors is deliberately absent: it cannot be delivered by a meta tag and only produces a console
-     warning. Framing protection for this origin is the Cloudflare Transform Rule, which is an operator job. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+     warning. Framing protection for this origin is the Cloudflare Transform Rule, which is an operator job.
+     script-src allows only Google Analytics and our own /ga.js — never 'unsafe-inline'. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'unsafe-inline'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; connect-src https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'none'; form-action 'none'">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4QWLXTDH20"></script>
+<script src="/ga.js"></script>
 <meta name="robots" content="noindex, nofollow">
 <title>Emogotchi — Airdrop Campaign Brief</title>
 <style>
