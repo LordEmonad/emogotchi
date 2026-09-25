@@ -1,0 +1,56 @@
+[
+  {
+    "file": "sahur-x-header.png",
+    "use": "X header · 1500×500 (3:1)",
+    "px": "3000×1000",
+    "kb": 1096
+  },
+  {
+    "file": "sahur-opensea-banner.png",
+    "use": "OpenSea / Poply header · 2400×900 (8:3; the middle 16:9 is what a phone keeps)",
+    "px": "2400×900",
+    "kb": 821
+  },
+  {
+    "file": "sahur-opensea-featured.png",
+    "use": "OpenSea featured image · 1200×800 (3:2)",
+    "px": "1200×800",
+    "kb": 466
+  },
+  {
+    "file": "sahur-hero-16x9.png",
+    "use": "Hero 16:9 · 1920×1080 (Discord banner, splash, decks)",
+    "px": "1920×1080",
+    "kb": 790
+  },
+  {
+    "file": "sahur-og.png",
+    "use": "Link preview (Open Graph / X card) · 2400×1260 (1.91:1), used by /mint and /inversebrah",
+    "px": "2400×1260",
+    "kb": 1060
+  },
+  {
+    "file": "sahur-logo.png",
+    "use": "Logo / avatar · 1024×1024 (X, Telegram, Discord, MonadVision cover, OpenSea logo)",
+    "px": "1024×1024",
+    "kb": 534
+  },
+  {
+    "file": "sahur-logo-transparent.png",
+    "use": "Logo on transparent · 1024×1024 (stickers, overlays)",
+    "px": "1024×1024",
+    "kb": 176
+  },
+  {
+    "file": "sahur-icon.png",
+    "use": "Icon / avatar · 1024×1024, full figure (X, Telegram, Discord, OpenSea logo)",
+    "px": "1024×1024",
+    "kb": 533
+  },
+  {
+    "file": "sahur-icon-transparent.png",
+    "use": "Icon on transparent · 1024×1024",
+    "px": "1024×1024",
+    "kb": 175
+  }
+]
