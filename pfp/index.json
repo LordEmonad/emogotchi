@@ -1,0 +1,377 @@
+{
+ "cat": {
+  "label": "Emogotchi",
+  "looks": [
+   {
+    "file": "content",
+    "label": "content",
+    "bg": "pink"
+   },
+   {
+    "file": "happy",
+    "label": "happy",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy",
+    "label": "sleepy",
+    "bg": "night"
+   },
+   {
+    "file": "sleeping",
+    "label": "sleeping",
+    "bg": "mint"
+   },
+   {
+    "file": "bored",
+    "label": "bored",
+    "bg": "peach"
+   },
+   {
+    "file": "hungry",
+    "label": "hungry",
+    "bg": "gold"
+   },
+   {
+    "file": "grubby",
+    "label": "grubby",
+    "bg": "sky"
+   },
+   {
+    "file": "sad",
+    "label": "sad",
+    "bg": "plum"
+   },
+   {
+    "file": "content-crown",
+    "label": "content · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown",
+    "label": "happy · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy-crown",
+    "label": "sleepy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "sad-crown",
+    "label": "sad · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "content-witch",
+    "label": "content · witch",
+    "bg": "peach"
+   },
+   {
+    "file": "content-pumpkin",
+    "label": "content · pumpkin",
+    "bg": "gold"
+   },
+   {
+    "file": "content-mummy",
+    "label": "content · mummy",
+    "bg": "sky"
+   },
+   {
+    "file": "content-zombie",
+    "label": "content · zombie",
+    "bg": "plum"
+   },
+   {
+    "file": "happy-crown-witch",
+    "label": "happy · witch · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown-pumpkin",
+    "label": "happy · pumpkin · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "happy-crown-mummy",
+    "label": "happy · mummy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "happy-crown-zombie",
+    "label": "happy · zombie · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "happy-witch",
+    "label": "happy · witch",
+    "bg": "peach"
+   },
+   {
+    "file": "sad-zombie",
+    "label": "sad · zombie",
+    "bg": "gold"
+   },
+   {
+    "file": "dead",
+    "label": "ghost",
+    "bg": "sky"
+   },
+   {
+    "file": "dead-crown",
+    "label": "ghost · crowned",
+    "bg": "plum"
+   }
+  ]
+ },
+ "frog": {
+  "label": "inversebrah",
+  "looks": [
+   {
+    "file": "content",
+    "label": "content",
+    "bg": "pink"
+   },
+   {
+    "file": "happy",
+    "label": "happy",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy",
+    "label": "sleepy",
+    "bg": "night"
+   },
+   {
+    "file": "sleeping",
+    "label": "sleeping",
+    "bg": "mint"
+   },
+   {
+    "file": "bored",
+    "label": "bored",
+    "bg": "peach"
+   },
+   {
+    "file": "hungry",
+    "label": "hungry",
+    "bg": "gold"
+   },
+   {
+    "file": "grubby",
+    "label": "grubby",
+    "bg": "sky"
+   },
+   {
+    "file": "sad",
+    "label": "sad",
+    "bg": "plum"
+   },
+   {
+    "file": "content-crown",
+    "label": "content · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown",
+    "label": "happy · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy-crown",
+    "label": "sleepy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "sad-crown",
+    "label": "sad · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "content-witch",
+    "label": "content · witch",
+    "bg": "peach"
+   },
+   {
+    "file": "content-pumpkin",
+    "label": "content · pumpkin",
+    "bg": "gold"
+   },
+   {
+    "file": "content-mummy",
+    "label": "content · mummy",
+    "bg": "sky"
+   },
+   {
+    "file": "content-zombie",
+    "label": "content · zombie",
+    "bg": "plum"
+   },
+   {
+    "file": "happy-crown-witch",
+    "label": "happy · witch · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown-pumpkin",
+    "label": "happy · pumpkin · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "happy-crown-mummy",
+    "label": "happy · mummy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "happy-crown-zombie",
+    "label": "happy · zombie · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "content-emohair",
+    "label": "content · emo hair",
+    "bg": "peach"
+   },
+   {
+    "file": "happy-crown-emohair",
+    "label": "happy · emo hair · crowned",
+    "bg": "gold"
+   },
+   {
+    "file": "dead",
+    "label": "ghost",
+    "bg": "sky"
+   },
+   {
+    "file": "dead-crown",
+    "label": "ghost · crowned",
+    "bg": "plum"
+   }
+  ]
+ },
+ "sahur": {
+  "label": "Tung Tung Tung Sahur",
+  "looks": [
+   {
+    "file": "content",
+    "label": "content",
+    "bg": "pink"
+   },
+   {
+    "file": "happy",
+    "label": "happy",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy",
+    "label": "sleepy",
+    "bg": "night"
+   },
+   {
+    "file": "sleeping",
+    "label": "sleeping",
+    "bg": "mint"
+   },
+   {
+    "file": "bored",
+    "label": "bored",
+    "bg": "peach"
+   },
+   {
+    "file": "hungry",
+    "label": "hungry",
+    "bg": "gold"
+   },
+   {
+    "file": "grubby",
+    "label": "grubby",
+    "bg": "sky"
+   },
+   {
+    "file": "sad",
+    "label": "sad",
+    "bg": "plum"
+   },
+   {
+    "file": "content-crown",
+    "label": "content · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown",
+    "label": "happy · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "sleepy-crown",
+    "label": "sleepy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "sad-crown",
+    "label": "sad · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "content-witch",
+    "label": "content · witch",
+    "bg": "peach"
+   },
+   {
+    "file": "content-pumpkin",
+    "label": "content · pumpkin",
+    "bg": "gold"
+   },
+   {
+    "file": "content-mummy",
+    "label": "content · mummy",
+    "bg": "sky"
+   },
+   {
+    "file": "content-zombie",
+    "label": "content · zombie",
+    "bg": "plum"
+   },
+   {
+    "file": "happy-crown-witch",
+    "label": "happy · witch · crowned",
+    "bg": "pink"
+   },
+   {
+    "file": "happy-crown-pumpkin",
+    "label": "happy · pumpkin · crowned",
+    "bg": "violet"
+   },
+   {
+    "file": "happy-crown-mummy",
+    "label": "happy · mummy · crowned",
+    "bg": "night"
+   },
+   {
+    "file": "happy-crown-zombie",
+    "label": "happy · zombie · crowned",
+    "bg": "mint"
+   },
+   {
+    "file": "content-emohair",
+    "label": "content · emo hair",
+    "bg": "peach"
+   },
+   {
+    "file": "happy-crown-emohair",
+    "label": "happy · emo hair · crowned",
+    "bg": "gold"
+   },
+   {
+    "file": "dead",
+    "label": "ghost",
+    "bg": "sky"
+   },
+   {
+    "file": "dead-crown",
+    "label": "ghost · crowned",
+    "bg": "plum"
+   }
+  ]
+ }
+}
