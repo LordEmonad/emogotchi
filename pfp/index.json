@@ -21,37 +21,37 @@
    {
     "file": "happy",
     "label": "happy",
-    "bg": "violet",
+    "bg": "mint",
     "frame": ""
    },
    {
     "file": "sleepy",
     "label": "sleepy",
-    "bg": "night",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sleeping",
     "label": "sleeping",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "bored",
     "label": "bored",
-    "bg": "peach",
-    "frame": ""
-   },
-   {
-    "file": "hungry",
-    "label": "hungry",
     "bg": "gold",
     "frame": ""
    },
    {
+    "file": "hungry",
+    "label": "hungry · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
     "file": "grubby",
-    "label": "grubby",
-    "bg": "sky",
+    "label": "grubby · the room at night",
+    "bg": "night",
     "frame": ""
    },
    {
@@ -62,38 +62,110 @@
    },
    {
     "file": "content-crown",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "happy-crown",
-    "label": "happy · crowned",
-    "bg": "violet",
+    "label": "happy · crowned · the Backrooms",
+    "bg": "backrooms",
     "frame": ""
    },
    {
     "file": "sleepy-crown",
     "label": "sleepy · crowned",
-    "bg": "night",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleeping-crown",
+    "label": "sleeping · crowned",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-crown",
+    "label": "bored · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "hungry-crown",
+    "label": "hungry · crowned",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "grubby-crown",
+    "label": "grubby · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sad-crown",
     "label": "sad · crowned",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "content-witch",
     "label": "content · witch",
-    "bg": "peach",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "happy-witch",
+    "label": "happy · witch · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-witch",
+    "label": "sleepy · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "bored-witch",
+    "label": "bored · witch",
+    "bg": "plum",
+    "frame": ""
+   },
+   {
+    "file": "sad-witch",
+    "label": "sad · witch · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "content-pumpkin",
-    "label": "content · pumpkin",
-    "bg": "gold",
+    "label": "content · pumpkin · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "happy-pumpkin",
+    "label": "happy · pumpkin",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-pumpkin",
+    "label": "sleepy · pumpkin",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-pumpkin",
+    "label": "bored · pumpkin",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "sad-pumpkin",
+    "label": "sad · pumpkin",
+    "bg": "mint",
     "frame": ""
    },
    {
@@ -103,75 +175,195 @@
     "frame": ""
    },
    {
+    "file": "happy-mummy",
+    "label": "happy · mummy",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-mummy",
+    "label": "sleepy · mummy",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "bored-mummy",
+    "label": "bored · mummy · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sad-mummy",
+    "label": "sad · mummy · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
     "file": "content-zombie",
     "label": "content · zombie",
     "bg": "plum",
     "frame": ""
    },
    {
+    "file": "happy-zombie",
+    "label": "happy · zombie · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-zombie",
+    "label": "sleepy · zombie · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "bored-zombie",
+    "label": "bored · zombie",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sad-zombie",
+    "label": "sad · zombie",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-witch",
+    "label": "content · witch · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
     "file": "happy-crown-witch",
     "label": "happy · witch · crowned",
-    "bg": "pink",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-pumpkin",
+    "label": "content · pumpkin · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "happy-crown-pumpkin",
     "label": "happy · pumpkin · crowned",
-    "bg": "violet",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-mummy",
+    "label": "content · mummy · crowned",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "happy-crown-mummy",
-    "label": "happy · mummy · crowned",
+    "label": "happy · mummy · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-zombie",
+    "label": "content · zombie · crowned · the room at night",
     "bg": "night",
     "frame": ""
    },
    {
     "file": "happy-crown-zombie",
     "label": "happy · zombie · crowned",
-    "bg": "mint",
+    "bg": "plum",
     "frame": ""
    },
    {
-    "file": "happy-witch",
-    "label": "happy · witch",
+    "file": "sleeping-witch",
+    "label": "sleeping · witch · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "grubby-zombie",
+    "label": "grubby · zombie · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "hungry-pumpkin",
+    "label": "hungry · pumpkin",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleeping-mummy",
+    "label": "sleeping · mummy",
     "bg": "peach",
     "frame": ""
    },
    {
-    "file": "sad-zombie",
-    "label": "sad · zombie",
-    "bg": "gold",
+    "file": "sad-crown-witch",
+    "label": "sad · witch · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-crown-zombie",
+    "label": "sleepy · zombie · crowned",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "hungry-crown-mummy",
+    "label": "hungry · mummy · crowned",
+    "bg": "sky",
+    "frame": ""
+   },
+   {
+    "file": "grubby-crown-pumpkin",
+    "label": "grubby · pumpkin · crowned",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "dead",
     "label": "ghost",
-    "bg": "sky",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "dead-crown",
-    "label": "ghost · crowned",
+    "label": "ghost · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "dead-witch",
+    "label": "ghost · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "dead-pumpkin",
+    "label": "ghost · pumpkin",
     "bg": "plum",
     "frame": ""
    },
    {
     "file": "content-close",
     "label": "content",
-    "bg": "mint",
+    "bg": "peach",
     "frame": "close"
    },
    {
     "file": "happy-close",
     "label": "happy",
-    "bg": "peach",
+    "bg": "pink",
     "frame": "close"
    },
    {
     "file": "sleepy-close",
     "label": "sleepy",
-    "bg": "gold",
+    "bg": "mint",
     "frame": "close"
    },
    {
@@ -183,43 +375,67 @@
    {
     "file": "sad-close",
     "label": "sad",
-    "bg": "plum",
+    "bg": "dusk",
+    "frame": "close"
+   },
+   {
+    "file": "hungry-close",
+    "label": "hungry",
+    "bg": "gold",
     "frame": "close"
    },
    {
     "file": "content-crown-close",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the room",
+    "bg": "room",
     "frame": "close"
    },
    {
     "file": "happy-crown-close",
-    "label": "happy · crowned",
-    "bg": "violet",
-    "frame": "close"
-   },
-   {
-    "file": "content-witch-close",
-    "label": "content · witch",
+    "label": "happy · crowned · the room at night",
     "bg": "night",
     "frame": "close"
    },
    {
-    "file": "content-pumpkin-close",
-    "label": "content · pumpkin",
-    "bg": "mint",
+    "file": "sleepy-crown-close",
+    "label": "sleepy · crowned",
+    "bg": "plum",
+    "frame": "close"
+   },
+   {
+    "file": "content-witch-close",
+    "label": "content · witch · the Spooky theme",
+    "bg": "spooky",
+    "frame": "close"
+   },
+   {
+    "file": "happy-pumpkin-close",
+    "label": "happy · pumpkin · the Backrooms",
+    "bg": "backrooms",
     "frame": "close"
    },
    {
     "file": "content-zombie-close",
     "label": "content · zombie",
-    "bg": "peach",
+    "bg": "violet",
     "frame": "close"
    },
    {
     "file": "happy-crown-mummy-close",
     "label": "happy · mummy · crowned",
-    "bg": "gold",
+    "bg": "peach",
+    "frame": "close"
+   },
+   {
+    "file": "bored-mummy-close",
+    "label": "bored · mummy",
+    "bg": "pink",
+    "frame": "close"
+   },
+   {
+    "file": "sad-crown-zombie-close",
+    "label": "sad · zombie · crowned",
+    "bg": "mint",
     "frame": "close"
    },
    {
@@ -252,37 +468,37 @@
    {
     "file": "happy",
     "label": "happy",
-    "bg": "violet",
+    "bg": "mint",
     "frame": ""
    },
    {
     "file": "sleepy",
     "label": "sleepy",
-    "bg": "night",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sleeping",
     "label": "sleeping",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "bored",
     "label": "bored",
-    "bg": "peach",
-    "frame": ""
-   },
-   {
-    "file": "hungry",
-    "label": "hungry",
     "bg": "gold",
     "frame": ""
    },
    {
+    "file": "hungry",
+    "label": "hungry · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
     "file": "grubby",
-    "label": "grubby",
-    "bg": "sky",
+    "label": "grubby · the room at night",
+    "bg": "night",
     "frame": ""
    },
    {
@@ -293,38 +509,110 @@
    },
    {
     "file": "content-crown",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "happy-crown",
-    "label": "happy · crowned",
-    "bg": "violet",
+    "label": "happy · crowned · the Backrooms",
+    "bg": "backrooms",
     "frame": ""
    },
    {
     "file": "sleepy-crown",
     "label": "sleepy · crowned",
-    "bg": "night",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleeping-crown",
+    "label": "sleeping · crowned",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-crown",
+    "label": "bored · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "hungry-crown",
+    "label": "hungry · crowned",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "grubby-crown",
+    "label": "grubby · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sad-crown",
     "label": "sad · crowned",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "content-witch",
     "label": "content · witch",
-    "bg": "peach",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "happy-witch",
+    "label": "happy · witch · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-witch",
+    "label": "sleepy · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "bored-witch",
+    "label": "bored · witch",
+    "bg": "plum",
+    "frame": ""
+   },
+   {
+    "file": "sad-witch",
+    "label": "sad · witch · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "content-pumpkin",
-    "label": "content · pumpkin",
-    "bg": "gold",
+    "label": "content · pumpkin · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "happy-pumpkin",
+    "label": "happy · pumpkin",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-pumpkin",
+    "label": "sleepy · pumpkin",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-pumpkin",
+    "label": "bored · pumpkin",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "sad-pumpkin",
+    "label": "sad · pumpkin",
+    "bg": "mint",
     "frame": ""
    },
    {
@@ -334,75 +622,195 @@
     "frame": ""
    },
    {
+    "file": "happy-mummy",
+    "label": "happy · mummy",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-mummy",
+    "label": "sleepy · mummy",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "bored-mummy",
+    "label": "bored · mummy · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sad-mummy",
+    "label": "sad · mummy · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
     "file": "content-zombie",
     "label": "content · zombie",
     "bg": "plum",
     "frame": ""
    },
    {
+    "file": "happy-zombie",
+    "label": "happy · zombie · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-zombie",
+    "label": "sleepy · zombie · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "bored-zombie",
+    "label": "bored · zombie",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sad-zombie",
+    "label": "sad · zombie",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-witch",
+    "label": "content · witch · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
     "file": "happy-crown-witch",
     "label": "happy · witch · crowned",
-    "bg": "pink",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-pumpkin",
+    "label": "content · pumpkin · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "happy-crown-pumpkin",
     "label": "happy · pumpkin · crowned",
-    "bg": "violet",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-mummy",
+    "label": "content · mummy · crowned",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "happy-crown-mummy",
-    "label": "happy · mummy · crowned",
+    "label": "happy · mummy · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-zombie",
+    "label": "content · zombie · crowned · the room at night",
     "bg": "night",
     "frame": ""
    },
    {
     "file": "happy-crown-zombie",
     "label": "happy · zombie · crowned",
-    "bg": "mint",
+    "bg": "plum",
     "frame": ""
    },
    {
     "file": "content-emohair",
-    "label": "content · emo hair",
+    "label": "content · emo hair · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "happy-emohair",
+    "label": "happy · emo hair · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "bored-emohair",
+    "label": "bored · emo hair",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-emohair",
+    "label": "sleepy · emo hair",
     "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-emohair",
+    "label": "content · emo hair · crowned",
+    "bg": "pink",
     "frame": ""
    },
    {
     "file": "happy-crown-emohair",
     "label": "happy · emo hair · crowned",
-    "bg": "gold",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "sad-emohair",
+    "label": "sad · emo hair",
+    "bg": "sky",
+    "frame": ""
+   },
+   {
+    "file": "grubby-emohair",
+    "label": "grubby · emo hair",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "dead",
     "label": "ghost",
-    "bg": "sky",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "dead-crown",
-    "label": "ghost · crowned",
+    "label": "ghost · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "dead-witch",
+    "label": "ghost · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "dead-pumpkin",
+    "label": "ghost · pumpkin",
     "bg": "plum",
     "frame": ""
    },
    {
     "file": "content-full",
     "label": "content",
-    "bg": "mint",
+    "bg": "peach",
     "frame": "full"
    },
    {
     "file": "happy-full",
     "label": "happy",
-    "bg": "peach",
+    "bg": "pink",
     "frame": "full"
    },
    {
     "file": "sleepy-full",
     "label": "sleepy",
-    "bg": "gold",
+    "bg": "mint",
     "frame": "full"
    },
    {
@@ -414,43 +822,67 @@
    {
     "file": "sad-full",
     "label": "sad",
-    "bg": "plum",
+    "bg": "dusk",
+    "frame": "full"
+   },
+   {
+    "file": "hungry-full",
+    "label": "hungry",
+    "bg": "gold",
     "frame": "full"
    },
    {
     "file": "content-crown-full",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the room",
+    "bg": "room",
     "frame": "full"
    },
    {
     "file": "happy-crown-full",
-    "label": "happy · crowned",
-    "bg": "violet",
-    "frame": "full"
-   },
-   {
-    "file": "content-witch-full",
-    "label": "content · witch",
+    "label": "happy · crowned · the room at night",
     "bg": "night",
     "frame": "full"
    },
    {
-    "file": "content-pumpkin-full",
-    "label": "content · pumpkin",
-    "bg": "mint",
+    "file": "sleepy-crown-full",
+    "label": "sleepy · crowned",
+    "bg": "plum",
+    "frame": "full"
+   },
+   {
+    "file": "content-witch-full",
+    "label": "content · witch · the Spooky theme",
+    "bg": "spooky",
+    "frame": "full"
+   },
+   {
+    "file": "happy-pumpkin-full",
+    "label": "happy · pumpkin · the Backrooms",
+    "bg": "backrooms",
     "frame": "full"
    },
    {
     "file": "content-zombie-full",
     "label": "content · zombie",
+    "bg": "violet",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-mummy-full",
+    "label": "happy · mummy · crowned",
     "bg": "peach",
     "frame": "full"
    },
    {
     "file": "content-emohair-full",
     "label": "content · emo hair",
-    "bg": "gold",
+    "bg": "pink",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-emohair-full",
+    "label": "happy · emo hair · crowned",
+    "bg": "mint",
     "frame": "full"
    },
    {
@@ -483,37 +915,37 @@
    {
     "file": "happy",
     "label": "happy",
-    "bg": "violet",
+    "bg": "mint",
     "frame": ""
    },
    {
     "file": "sleepy",
     "label": "sleepy",
-    "bg": "night",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sleeping",
     "label": "sleeping",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "bored",
     "label": "bored",
-    "bg": "peach",
-    "frame": ""
-   },
-   {
-    "file": "hungry",
-    "label": "hungry",
     "bg": "gold",
     "frame": ""
    },
    {
+    "file": "hungry",
+    "label": "hungry · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
     "file": "grubby",
-    "label": "grubby",
-    "bg": "sky",
+    "label": "grubby · the room at night",
+    "bg": "night",
     "frame": ""
    },
    {
@@ -524,38 +956,110 @@
    },
    {
     "file": "content-crown",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "happy-crown",
-    "label": "happy · crowned",
-    "bg": "violet",
+    "label": "happy · crowned · the Backrooms",
+    "bg": "backrooms",
     "frame": ""
    },
    {
     "file": "sleepy-crown",
     "label": "sleepy · crowned",
-    "bg": "night",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleeping-crown",
+    "label": "sleeping · crowned",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-crown",
+    "label": "bored · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "hungry-crown",
+    "label": "hungry · crowned",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "grubby-crown",
+    "label": "grubby · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "sad-crown",
     "label": "sad · crowned",
-    "bg": "mint",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "content-witch",
     "label": "content · witch",
-    "bg": "peach",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "happy-witch",
+    "label": "happy · witch · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-witch",
+    "label": "sleepy · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "bored-witch",
+    "label": "bored · witch",
+    "bg": "plum",
+    "frame": ""
+   },
+   {
+    "file": "sad-witch",
+    "label": "sad · witch · the Spooky theme",
+    "bg": "spooky",
     "frame": ""
    },
    {
     "file": "content-pumpkin",
-    "label": "content · pumpkin",
-    "bg": "gold",
+    "label": "content · pumpkin · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "happy-pumpkin",
+    "label": "happy · pumpkin",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-pumpkin",
+    "label": "sleepy · pumpkin",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "bored-pumpkin",
+    "label": "bored · pumpkin",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
+    "file": "sad-pumpkin",
+    "label": "sad · pumpkin",
+    "bg": "mint",
     "frame": ""
    },
    {
@@ -565,75 +1069,195 @@
     "frame": ""
    },
    {
+    "file": "happy-mummy",
+    "label": "happy · mummy",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-mummy",
+    "label": "sleepy · mummy",
+    "bg": "gold",
+    "frame": ""
+   },
+   {
+    "file": "bored-mummy",
+    "label": "bored · mummy · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "sad-mummy",
+    "label": "sad · mummy · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
     "file": "content-zombie",
     "label": "content · zombie",
     "bg": "plum",
     "frame": ""
    },
    {
+    "file": "happy-zombie",
+    "label": "happy · zombie · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-zombie",
+    "label": "sleepy · zombie · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "bored-zombie",
+    "label": "bored · zombie",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sad-zombie",
+    "label": "sad · zombie",
+    "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-witch",
+    "label": "content · witch · crowned",
+    "bg": "pink",
+    "frame": ""
+   },
+   {
     "file": "happy-crown-witch",
     "label": "happy · witch · crowned",
-    "bg": "pink",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-pumpkin",
+    "label": "content · pumpkin · crowned",
+    "bg": "sky",
     "frame": ""
    },
    {
     "file": "happy-crown-pumpkin",
     "label": "happy · pumpkin · crowned",
-    "bg": "violet",
+    "bg": "dusk",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-mummy",
+    "label": "content · mummy · crowned",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "happy-crown-mummy",
-    "label": "happy · mummy · crowned",
+    "label": "happy · mummy · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-zombie",
+    "label": "content · zombie · crowned · the room at night",
     "bg": "night",
     "frame": ""
    },
    {
     "file": "happy-crown-zombie",
     "label": "happy · zombie · crowned",
-    "bg": "mint",
+    "bg": "plum",
     "frame": ""
    },
    {
     "file": "content-emohair",
-    "label": "content · emo hair",
+    "label": "content · emo hair · the Spooky theme",
+    "bg": "spooky",
+    "frame": ""
+   },
+   {
+    "file": "happy-emohair",
+    "label": "happy · emo hair · the Backrooms",
+    "bg": "backrooms",
+    "frame": ""
+   },
+   {
+    "file": "bored-emohair",
+    "label": "bored · emo hair",
+    "bg": "violet",
+    "frame": ""
+   },
+   {
+    "file": "sleepy-emohair",
+    "label": "sleepy · emo hair",
     "bg": "peach",
+    "frame": ""
+   },
+   {
+    "file": "content-crown-emohair",
+    "label": "content · emo hair · crowned",
+    "bg": "pink",
     "frame": ""
    },
    {
     "file": "happy-crown-emohair",
     "label": "happy · emo hair · crowned",
-    "bg": "gold",
+    "bg": "mint",
+    "frame": ""
+   },
+   {
+    "file": "sad-emohair",
+    "label": "sad · emo hair",
+    "bg": "sky",
+    "frame": ""
+   },
+   {
+    "file": "grubby-emohair",
+    "label": "grubby · emo hair",
+    "bg": "dusk",
     "frame": ""
    },
    {
     "file": "dead",
     "label": "ghost",
-    "bg": "sky",
+    "bg": "gold",
     "frame": ""
    },
    {
     "file": "dead-crown",
-    "label": "ghost · crowned",
+    "label": "ghost · crowned · the room",
+    "bg": "room",
+    "frame": ""
+   },
+   {
+    "file": "dead-witch",
+    "label": "ghost · witch · the room at night",
+    "bg": "night",
+    "frame": ""
+   },
+   {
+    "file": "dead-pumpkin",
+    "label": "ghost · pumpkin",
     "bg": "plum",
     "frame": ""
    },
    {
     "file": "content-close",
     "label": "content",
-    "bg": "mint",
+    "bg": "peach",
     "frame": "close"
    },
    {
     "file": "happy-close",
     "label": "happy",
-    "bg": "peach",
+    "bg": "pink",
     "frame": "close"
    },
    {
     "file": "sleepy-close",
     "label": "sleepy",
-    "bg": "gold",
+    "bg": "mint",
     "frame": "close"
    },
    {
@@ -645,43 +1269,67 @@
    {
     "file": "sad-close",
     "label": "sad",
-    "bg": "plum",
+    "bg": "dusk",
+    "frame": "close"
+   },
+   {
+    "file": "hungry-close",
+    "label": "hungry",
+    "bg": "gold",
     "frame": "close"
    },
    {
     "file": "content-crown-close",
-    "label": "content · crowned",
-    "bg": "pink",
+    "label": "content · crowned · the room",
+    "bg": "room",
     "frame": "close"
    },
    {
     "file": "happy-crown-close",
-    "label": "happy · crowned",
-    "bg": "violet",
-    "frame": "close"
-   },
-   {
-    "file": "content-witch-close",
-    "label": "content · witch",
+    "label": "happy · crowned · the room at night",
     "bg": "night",
     "frame": "close"
    },
    {
-    "file": "content-pumpkin-close",
-    "label": "content · pumpkin",
-    "bg": "mint",
+    "file": "sleepy-crown-close",
+    "label": "sleepy · crowned",
+    "bg": "plum",
+    "frame": "close"
+   },
+   {
+    "file": "content-witch-close",
+    "label": "content · witch · the Spooky theme",
+    "bg": "spooky",
+    "frame": "close"
+   },
+   {
+    "file": "happy-pumpkin-close",
+    "label": "happy · pumpkin · the Backrooms",
+    "bg": "backrooms",
     "frame": "close"
    },
    {
     "file": "content-zombie-close",
     "label": "content · zombie",
+    "bg": "violet",
+    "frame": "close"
+   },
+   {
+    "file": "happy-crown-mummy-close",
+    "label": "happy · mummy · crowned",
     "bg": "peach",
     "frame": "close"
    },
    {
     "file": "content-emohair-close",
     "label": "content · emo hair",
-    "bg": "gold",
+    "bg": "pink",
+    "frame": "close"
+   },
+   {
+    "file": "happy-crown-emohair-close",
+    "label": "happy · emo hair · crowned",
+    "bg": "mint",
     "frame": "close"
    },
    {
