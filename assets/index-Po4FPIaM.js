@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/PhArrowCircleDown-B305t-Sh.js","assets/property-C9JG5tag.js","assets/PhArrowClockwise-CJPxQhr_.js","assets/PhArrowDown-C4hT9BVu.js","assets/PhArrowLeft-Way4Cu-r.js","assets/PhArrowRight-Cp5ZME0F.js","assets/PhArrowSquareOut-NnrK69c5.js","assets/PhArrowsDownUp-BjBI4ckC.js","assets/PhArrowsLeftRight-CuLpbKRk.js","assets/PhArrowUp-Dph6j8rm.js","assets/PhArrowUpRight-BpJjRRRh.js","assets/PhArrowsClockwise-CFUT8X7R.js","assets/PhBank-Dchr4XQJ.js","assets/PhBrowser-dUu2TrC1.js","assets/PhCaretDown-78IuKU3V.js","assets/PhCaretLeft-_aiyH7n1.js","assets/PhCaretRight-8zJQEuDX.js","assets/PhCaretUp-CiCxKWwN.js","assets/PhCheck-CcADx8br.js","assets/PhCircleHalf-BYzSzd2h.js","assets/PhClock-UItiXeJq.js","assets/PhCompass-CUy3uA7t.js","assets/PhCopy-C-PDgSlZ.js","assets/PhCreditCard-CWRaUT6F.js","assets/PhCurrencyDollar-Cqla3AXT.js","assets/PhDesktop-BBIPrYLl.js","assets/PhDeviceMobile-BdsPaATg.js","assets/PhDotsThree-BMXCQl-0.js","assets/PhVault-l2PHF38a.js","assets/PhEnvelope-yUsis6yU.js","assets/PhFunnelSimple-Ba7BbWTp.js","assets/PhGlobe-DgLxBk5U.js","assets/PhIdentificationCard-Czjmq9Z3.js","assets/PhImage-BAJ_erz6.js","assets/PhInfo-Cr4DhVUE.js","assets/PhLightbulb-BX_7duTr.js","assets/PhMagnifyingGlass-Mygfryvz.js","assets/PhPaperPlaneRight-BeuCA660.js","assets/PhPlus-BMjcHjsT.js","assets/PhPower-CGffGmdb.js","assets/PhPuzzlePiece-wm_GpVSi.js","assets/PhQrCode-DRwRzXCH.js","assets/PhQuestion-M09j2U0T.js","assets/PhQuestionMark-BP9EMB6h.js","assets/PhSealCheck-BfG80yKn.js","assets/PhSignOut-C5YOWlPT.js","assets/PhSpinner-BXooDYzU.js","assets/PhTrash-Biq6rmmL.js","assets/PhUser-CAgZSpGe.js","assets/PhWallet-w25D16It.js","assets/PhWarning-DPEydIPw.js","assets/PhWarningCircle-BqjT745H.js","assets/PhX-s-SmVExa.js"])))=>i.map(i=>d[i]);
-import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce,h as L,j as B}from"./core-DVjMWEF7.js";import{eK as c}from"./index-BxhJK9aa.js";const G=".",I={getSpacingStyles(e,t){if(Array.isArray(e))return e[t]?`var(--apkt-spacing-${e[t]})`:void 0;if(typeof e=="string")return`var(--apkt-spacing-${e})`},getFormattedDate(e){return new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric"}).format(e)},formatCurrency(e=0,t={}){const o=Number(e);return isNaN(o)?"$0.00":new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",minimumFractionDigits:2,maximumFractionDigits:2,...t}).format(o)},getHostName(e){try{return new URL(e).hostname}catch{return""}},getTruncateString({string:e,charsStart:t,charsEnd:o,truncate:r}){return e.length<=t+o?e:r==="end"?`${e.substring(0,t)}...`:r==="start"?`...${e.substring(e.length-o)}`:`${e.substring(0,Math.floor(t))}...${e.substring(e.length-Math.floor(o))}`},generateAvatarColors(e){const o=e.toLowerCase().replace(/^0x/iu,"").replace(/[^a-f0-9]/gu,"").substring(0,6).padEnd(6,"0"),r=this.hexToRgb(o),n=getComputedStyle(document.documentElement).getPropertyValue("--w3m-border-radius-master"),a=100-3*Number(n==null?void 0:n.replace("px","")),s=`${a}% ${a}% at 65% 40%`,p=[];for(let _=0;_<5;_+=1){const E=this.tintColor(r,.15*_);p.push(`rgb(${E[0]}, ${E[1]}, ${E[2]})`)}return`
+import{f as ae,u as le,i as K,r as b,c as v,d as h,e as se,w as d,v as u,E as ce,h as L,j as B}from"./core-BRI4mjjW.js";import{eL as c}from"./index-DKhgGaAZ.js";const G=".",I={getSpacingStyles(e,t){if(Array.isArray(e))return e[t]?`var(--apkt-spacing-${e[t]})`:void 0;if(typeof e=="string")return`var(--apkt-spacing-${e})`},getFormattedDate(e){return new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric"}).format(e)},formatCurrency(e=0,t={}){const o=Number(e);return isNaN(o)?"$0.00":new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",minimumFractionDigits:2,maximumFractionDigits:2,...t}).format(o)},getHostName(e){try{return new URL(e).hostname}catch{return""}},getTruncateString({string:e,charsStart:t,charsEnd:o,truncate:r}){return e.length<=t+o?e:r==="end"?`${e.substring(0,t)}...`:r==="start"?`...${e.substring(e.length-o)}`:`${e.substring(0,Math.floor(t))}...${e.substring(e.length-Math.floor(o))}`},generateAvatarColors(e){const o=e.toLowerCase().replace(/^0x/iu,"").replace(/[^a-f0-9]/gu,"").substring(0,6).padEnd(6,"0"),r=this.hexToRgb(o),n=getComputedStyle(document.documentElement).getPropertyValue("--w3m-border-radius-master"),a=100-3*Number(n==null?void 0:n.replace("px","")),s=`${a}% ${a}% at 65% 40%`,p=[];for(let _=0;_<5;_+=1){const E=this.tintColor(r,.15*_);p.push(`rgb(${E[0]}, ${E[1]}, ${E[2]})`)}return`
     --local-color-1: ${p[0]};
     --local-color-2: ${p[1]};
     --local-color-3: ${p[2]};
@@ -14,7 +14,7 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */function xt(e){return l({...e,state:!0,attribute:!1})}const ge=J`
+ */function xt(e){return l({...e,state:!0,attribute:!1})}const ge=K`
   :host {
     display: flex;
     width: inherit;
@@ -330,7 +330,7 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
   <defs>
     <clipPath id="a"><path fill="#fff" d="M.8 20a20 20 0 1 1 40 0 20 20 0 0 1-40 0Z" /></clipPath>
   </defs>
-</svg>`,Ne=J`
+</svg>`,Ne=K`
   :host {
     display: flex;
     justify-content: center;
@@ -353,11 +353,11 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */const Ke={ATTRIBUTE:1,CHILD:2},Je=e=>(...t)=>({_$litDirective$:e,values:t});class Qe{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,r){this._$Ct=t,this._$AM=o,this._$Ci=r}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}/**
+ */const Je={ATTRIBUTE:1,CHILD:2},Ke=e=>(...t)=>({_$litDirective$:e,values:t});class Qe{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,r){this._$Ct=t,this._$AM=o,this._$Ci=r}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}/**
  * @license
  * Copyright 2018 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */const et=Je(class extends Qe{constructor(e){var t;if(super(e),e.type!==Ke.ATTRIBUTE||e.name!=="class"||((t=e.strings)==null?void 0:t.length)>2)throw Error("`classMap()` can only be used in the `class` attribute and must be the only part in the attribute.")}render(e){return" "+Object.keys(e).filter(t=>e[t]).join(" ")+" "}update(e,[t]){var r,n;if(this.st===void 0){this.st=new Set,e.strings!==void 0&&(this.nt=new Set(e.strings.join(" ").split(/\s/).filter(i=>i!=="")));for(const i in t)t[i]&&!((r=this.nt)!=null&&r.has(i))&&this.st.add(i);return this.render(t)}const o=e.element.classList;for(const i of this.st)i in t||(o.remove(i),this.st.delete(i));for(const i in t){const a=!!t[i];a===this.st.has(i)||(n=this.nt)!=null&&n.has(i)||(a?(o.add(i),this.st.add(i)):(o.remove(i),this.st.delete(i)))}return ce}}),tt=L`
+ */const et=Ke(class extends Qe{constructor(e){var t;if(super(e),e.type!==Je.ATTRIBUTE||e.name!=="class"||((t=e.strings)==null?void 0:t.length)>2)throw Error("`classMap()` can only be used in the `class` attribute and must be the only part in the attribute.")}render(e){return" "+Object.keys(e).filter(t=>e[t]).join(" ")+" "}update(e,[t]){var r,n;if(this.st===void 0){this.st=new Set,e.strings!==void 0&&(this.nt=new Set(e.strings.join(" ").split(/\s/).filter(i=>i!=="")));for(const i in t)t[i]&&!((r=this.nt)!=null&&r.has(i))&&this.st.add(i);return this.render(t)}const o=e.element.classList;for(const i of this.st)i in t||(o.remove(i),this.st.delete(i));for(const i in t){const a=!!t[i];a===this.st.has(i)||(n=this.nt)!=null&&n.has(i)||(a?(o.add(i),this.st.add(i)):(o.remove(i),this.st.delete(i)))}return ce}}),tt=L`
   slot {
     width: 100%;
     display: inline-block;
@@ -1076,7 +1076,7 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
         size=${P(this.size==="sm"?"sm":"md")}
         imageSrc=${this.imageSrc}
         name=${this.name}
-      ></wui-wallet-image>`:!this.showAllWallets&&!this.imageSrc?h`<wui-wallet-image size="sm" name=${this.name}></wui-wallet-image>`:null}templateStatus(){return this.loading?h`<wui-loading-spinner size="lg" color="accent-primary"></wui-loading-spinner>`:this.tagLabel&&this.tagVariant?h`<wui-tag size="sm" variant=${this.tagVariant}>${this.tagLabel}</wui-tag>`:null}};f.styles=[b,B,st];C([l({type:Array})],f.prototype,"walletImages",void 0);C([l()],f.prototype,"imageSrc",void 0);C([l()],f.prototype,"name",void 0);C([l()],f.prototype,"size",void 0);C([l()],f.prototype,"tagLabel",void 0);C([l()],f.prototype,"tagVariant",void 0);C([l()],f.prototype,"walletIcon",void 0);C([l()],f.prototype,"tabIdx",void 0);C([l({type:Array})],f.prototype,"namespaces",void 0);C([l({type:Boolean})],f.prototype,"disabled",void 0);C([l({type:Boolean})],f.prototype,"showAllWallets",void 0);C([l({type:Boolean})],f.prototype,"loading",void 0);C([l({type:String})],f.prototype,"loadingSpinnerColor",void 0);f=C([w("wui-list-wallet")],f);const ht=J`
+      ></wui-wallet-image>`:!this.showAllWallets&&!this.imageSrc?h`<wui-wallet-image size="sm" name=${this.name}></wui-wallet-image>`:null}templateStatus(){return this.loading?h`<wui-loading-spinner size="lg" color="accent-primary"></wui-loading-spinner>`:this.tagLabel&&this.tagVariant?h`<wui-tag size="sm" variant=${this.tagVariant}>${this.tagLabel}</wui-tag>`:null}};f.styles=[b,B,st];C([l({type:Array})],f.prototype,"walletImages",void 0);C([l()],f.prototype,"imageSrc",void 0);C([l()],f.prototype,"name",void 0);C([l()],f.prototype,"size",void 0);C([l()],f.prototype,"tagLabel",void 0);C([l()],f.prototype,"tagVariant",void 0);C([l()],f.prototype,"walletIcon",void 0);C([l()],f.prototype,"tabIdx",void 0);C([l({type:Array})],f.prototype,"namespaces",void 0);C([l({type:Boolean})],f.prototype,"disabled",void 0);C([l({type:Boolean})],f.prototype,"showAllWallets",void 0);C([l({type:Boolean})],f.prototype,"loading",void 0);C([l({type:String})],f.prototype,"loadingSpinnerColor",void 0);f=C([w("wui-list-wallet")],f);const ht=K`
   :host {
     display: flex;
   }
@@ -1387,7 +1387,7 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
   a:hover {
     opacity: 0.9;
   }
-`;var $t=function(e,t,o,r){var n=arguments.length,i=n<3?t:r===null?r=Object.getOwnPropertyDescriptor(t,o):r,a;if(typeof Reflect=="object"&&typeof Reflect.decorate=="function")i=Reflect.decorate(e,t,o,r);else for(var s=e.length-1;s>=0;s--)(a=e[s])&&(i=(n<3?a(i):n>3?a(t,o,i):a(t,o))||i);return n>3&&i&&Object.defineProperty(t,o,i),i};let K=class extends v{render(){return h`
+`;var $t=function(e,t,o,r){var n=arguments.length,i=n<3?t:r===null?r=Object.getOwnPropertyDescriptor(t,o):r,a;if(typeof Reflect=="object"&&typeof Reflect.decorate=="function")i=Reflect.decorate(e,t,o,r);else for(var s=e.length-1;s>=0;s--)(a=e[s])&&(i=(n<3?a(i):n>3?a(t,o,i):a(t,o))||i);return n>3&&i&&Object.defineProperty(t,o,i),i};let J=class extends v{render(){return h`
       <a
         data-testid="ux-branding-reown"
         href=${wt}
@@ -1405,7 +1405,7 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
           <wui-icon name="reown" size="inherit" class="reown-logo"></wui-icon>
         </wui-flex>
       </a>
-    `}};K.styles=[b,B,bt];K=$t([w("wui-ux-by-reown")],K);const Zt=d`<svg  viewBox="0 0 48 54" fill="none">
+    `}};J.styles=[b,B,bt];J=$t([w("wui-ux-by-reown")],J);const Zt=d`<svg  viewBox="0 0 48 54" fill="none">
   <path
     d="M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z"
   />
@@ -1485,4 +1485,4 @@ import{f as ae,u as le,i as J,r as b,c as v,d as h,e as se,w as d,v as u,E as ce
       size=${P(this.imageSize)}
       src=${this.imageSrc}
       boxColor=${this.boxColor}
-    ></wui-image>`}templateRightIcon(){return this.rightIcon?this.loading?h`<wui-loading-spinner size="md" color="accent-primary"></wui-loading-spinner>`:h`<wui-icon name="chevronRight" size="lg" color="default"></wui-icon>`:null}};m.styles=[b,B,Ct];y([l()],m.prototype,"type",void 0);y([l()],m.prototype,"imageSrc",void 0);y([l()],m.prototype,"imageSize",void 0);y([l()],m.prototype,"icon",void 0);y([l()],m.prototype,"iconColor",void 0);y([l({type:Boolean})],m.prototype,"loading",void 0);y([l()],m.prototype,"tabIdx",void 0);y([l()],m.prototype,"boxColor",void 0);y([l({type:Boolean})],m.prototype,"disabled",void 0);y([l({type:Boolean})],m.prototype,"rightIcon",void 0);y([l({type:Boolean})],m.prototype,"boxed",void 0);y([l({type:Boolean})],m.prototype,"rounded",void 0);y([l({type:Boolean})],m.prototype,"fullSize",void 0);m=y([w("wui-list-item")],m);export{I as U,Zt as a,Je as b,w as c,et as e,Qe as i,l as n,P as o,xt as r,Ke as t};
+    ></wui-image>`}templateRightIcon(){return this.rightIcon?this.loading?h`<wui-loading-spinner size="md" color="accent-primary"></wui-loading-spinner>`:h`<wui-icon name="chevronRight" size="lg" color="default"></wui-icon>`:null}};m.styles=[b,B,Ct];y([l()],m.prototype,"type",void 0);y([l()],m.prototype,"imageSrc",void 0);y([l()],m.prototype,"imageSize",void 0);y([l()],m.prototype,"icon",void 0);y([l()],m.prototype,"iconColor",void 0);y([l({type:Boolean})],m.prototype,"loading",void 0);y([l()],m.prototype,"tabIdx",void 0);y([l()],m.prototype,"boxColor",void 0);y([l({type:Boolean})],m.prototype,"disabled",void 0);y([l({type:Boolean})],m.prototype,"rightIcon",void 0);y([l({type:Boolean})],m.prototype,"boxed",void 0);y([l({type:Boolean})],m.prototype,"rounded",void 0);y([l({type:Boolean})],m.prototype,"fullSize",void 0);m=y([w("wui-list-item")],m);export{I as U,Zt as a,Ke as b,w as c,et as e,Qe as i,l as n,P as o,xt as r,Je as t};
