@@ -3119,5 +3119,792 @@
    }
   ]
  },
- "version": "202610012327"
+ "r3tards": {
+  "label": "r3tardgotchi",
+  "frames": [
+   {
+    "key": "moods",
+    "title": "Moods"
+   },
+   {
+    "key": "crowned",
+    "title": "Crowned"
+   },
+   {
+    "key": "outfits",
+    "title": "Outfits"
+   },
+   {
+    "key": "hair",
+    "title": "Emo hair"
+   },
+   {
+    "key": "jewish",
+    "title": "The Jewish pack"
+   },
+   {
+    "key": "habibi",
+    "title": "The Habibi pack"
+   },
+   {
+    "key": "ghosts",
+    "title": "Ghosts"
+   },
+   {
+    "key": "full",
+    "title": "Full body"
+   },
+   {
+    "key": "act",
+    "title": "In action"
+   }
+  ],
+  "looks": [
+   {
+    "file": "content",
+    "label": "content",
+    "bg": "pink",
+    "frame": "moods"
+   },
+   {
+    "file": "happy",
+    "label": "happy",
+    "bg": "dusk",
+    "frame": "moods"
+   },
+   {
+    "file": "sleepy",
+    "label": "sleepy \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "moods"
+   },
+   {
+    "file": "sleeping",
+    "label": "sleeping \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "moods"
+   },
+   {
+    "file": "bored",
+    "label": "bored",
+    "bg": "club",
+    "frame": "moods"
+   },
+   {
+    "file": "hungry",
+    "label": "hungry \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "moods"
+   },
+   {
+    "file": "grubby",
+    "label": "grubby",
+    "bg": "peach",
+    "frame": "moods"
+   },
+   {
+    "file": "sad",
+    "label": "sad \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "moods"
+   },
+   {
+    "file": "content-crown",
+    "label": "content \u00b7 crowned",
+    "bg": "ocean",
+    "frame": "crowned"
+   },
+   {
+    "file": "happy-crown",
+    "label": "happy \u00b7 crowned",
+    "bg": "sunset",
+    "frame": "crowned"
+   },
+   {
+    "file": "sleepy-crown",
+    "label": "sleepy \u00b7 crowned \u00b7 the room at night",
+    "bg": "night",
+    "frame": "crowned"
+   },
+   {
+    "file": "sleeping-crown",
+    "label": "sleeping \u00b7 crowned",
+    "bg": "aurora",
+    "frame": "crowned"
+   },
+   {
+    "file": "bored-crown",
+    "label": "bored \u00b7 crowned",
+    "bg": "plum",
+    "frame": "crowned"
+   },
+   {
+    "file": "hungry-crown",
+    "label": "hungry \u00b7 crowned",
+    "bg": "violet",
+    "frame": "crowned"
+   },
+   {
+    "file": "grubby-crown",
+    "label": "grubby \u00b7 crowned",
+    "bg": "mint",
+    "frame": "crowned"
+   },
+   {
+    "file": "sad-crown",
+    "label": "sad \u00b7 crowned",
+    "bg": "gold",
+    "frame": "crowned"
+   },
+   {
+    "file": "content-witch",
+    "label": "content \u00b7 witch \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-witch",
+    "label": "happy \u00b7 witch \u00b7 the room",
+    "bg": "room",
+    "frame": "outfits"
+   },
+   {
+    "file": "sleepy-witch",
+    "label": "sleepy \u00b7 witch \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "outfits"
+   },
+   {
+    "file": "bored-witch",
+    "label": "bored \u00b7 witch \u00b7 the Backrooms, lights low",
+    "bg": "backrooms-dim",
+    "frame": "outfits"
+   },
+   {
+    "file": "sad-witch",
+    "label": "sad \u00b7 witch",
+    "bg": "sky",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-pumpkin",
+    "label": "content \u00b7 pumpkin",
+    "bg": "pink",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-pumpkin",
+    "label": "happy \u00b7 pumpkin",
+    "bg": "dusk",
+    "frame": "outfits"
+   },
+   {
+    "file": "sleepy-pumpkin",
+    "label": "sleepy \u00b7 pumpkin \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "outfits"
+   },
+   {
+    "file": "bored-pumpkin",
+    "label": "bored \u00b7 pumpkin \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "outfits"
+   },
+   {
+    "file": "sad-pumpkin",
+    "label": "sad \u00b7 pumpkin",
+    "bg": "club",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-mummy",
+    "label": "content \u00b7 mummy \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-mummy",
+    "label": "happy \u00b7 mummy",
+    "bg": "peach",
+    "frame": "outfits"
+   },
+   {
+    "file": "sleepy-mummy",
+    "label": "sleepy \u00b7 mummy \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "outfits"
+   },
+   {
+    "file": "bored-mummy",
+    "label": "bored \u00b7 mummy",
+    "bg": "ocean",
+    "frame": "outfits"
+   },
+   {
+    "file": "sad-mummy",
+    "label": "sad \u00b7 mummy",
+    "bg": "sunset",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-zombie",
+    "label": "content \u00b7 zombie \u00b7 the room at night",
+    "bg": "night",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-zombie",
+    "label": "happy \u00b7 zombie",
+    "bg": "aurora",
+    "frame": "outfits"
+   },
+   {
+    "file": "sleepy-zombie",
+    "label": "sleepy \u00b7 zombie",
+    "bg": "plum",
+    "frame": "outfits"
+   },
+   {
+    "file": "bored-zombie",
+    "label": "bored \u00b7 zombie",
+    "bg": "violet",
+    "frame": "outfits"
+   },
+   {
+    "file": "sad-zombie",
+    "label": "sad \u00b7 zombie",
+    "bg": "mint",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-crown-witch",
+    "label": "content \u00b7 witch \u00b7 crowned",
+    "bg": "gold",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-crown-witch",
+    "label": "happy \u00b7 witch \u00b7 crowned \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-crown-pumpkin",
+    "label": "content \u00b7 pumpkin \u00b7 crowned \u00b7 the room",
+    "bg": "room",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-crown-pumpkin",
+    "label": "happy \u00b7 pumpkin \u00b7 crowned \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-crown-mummy",
+    "label": "content \u00b7 mummy \u00b7 crowned \u00b7 the Backrooms, lights low",
+    "bg": "backrooms-dim",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-crown-mummy",
+    "label": "happy \u00b7 mummy \u00b7 crowned",
+    "bg": "sky",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-crown-zombie",
+    "label": "content \u00b7 zombie \u00b7 crowned",
+    "bg": "pink",
+    "frame": "outfits"
+   },
+   {
+    "file": "happy-crown-zombie",
+    "label": "happy \u00b7 zombie \u00b7 crowned",
+    "bg": "dusk",
+    "frame": "outfits"
+   },
+   {
+    "file": "content-emohair",
+    "label": "content \u00b7 emo hair \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "hair"
+   },
+   {
+    "file": "happy-emohair",
+    "label": "happy \u00b7 emo hair \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "hair"
+   },
+   {
+    "file": "bored-emohair",
+    "label": "bored \u00b7 emo hair",
+    "bg": "club",
+    "frame": "hair"
+   },
+   {
+    "file": "sleepy-emohair",
+    "label": "sleepy \u00b7 emo hair \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "hair"
+   },
+   {
+    "file": "content-crown-emohair",
+    "label": "content \u00b7 emo hair \u00b7 crowned",
+    "bg": "peach",
+    "frame": "hair"
+   },
+   {
+    "file": "happy-crown-emohair",
+    "label": "happy \u00b7 emo hair \u00b7 crowned \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "hair"
+   },
+   {
+    "file": "sad-emohair",
+    "label": "sad \u00b7 emo hair",
+    "bg": "ocean",
+    "frame": "hair"
+   },
+   {
+    "file": "grubby-emohair",
+    "label": "grubby \u00b7 emo hair",
+    "bg": "sunset",
+    "frame": "hair"
+   },
+   {
+    "file": "content-kippah",
+    "label": "content \u00b7 kippah \u00b7 the room at night",
+    "bg": "night",
+    "frame": "jewish"
+   },
+   {
+    "file": "happy-kippah",
+    "label": "happy \u00b7 kippah",
+    "bg": "aurora",
+    "frame": "jewish"
+   },
+   {
+    "file": "sleepy-kippah",
+    "label": "sleepy \u00b7 kippah",
+    "bg": "plum",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-crown-kippah",
+    "label": "content \u00b7 kippah \u00b7 crowned",
+    "bg": "violet",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-starofdavid",
+    "label": "content \u00b7 Star of David",
+    "bg": "mint",
+    "frame": "jewish"
+   },
+   {
+    "file": "happy-crown-starofdavid",
+    "label": "happy \u00b7 Star of David \u00b7 crowned",
+    "bg": "gold",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-kippah-starofdavid",
+    "label": "content \u00b7 kippah \u00b7 Star of David \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "jewish"
+   },
+   {
+    "file": "happy-kippah-starofdavid",
+    "label": "happy \u00b7 kippah \u00b7 Star of David \u00b7 the room",
+    "bg": "room",
+    "frame": "jewish"
+   },
+   {
+    "file": "bored-kippah-starofdavid",
+    "label": "bored \u00b7 kippah \u00b7 Star of David \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "jewish"
+   },
+   {
+    "file": "happy-crown-kippah-starofdavid",
+    "label": "happy \u00b7 kippah \u00b7 Star of David \u00b7 crowned \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-witch-starofdavid",
+    "label": "content \u00b7 witch \u00b7 Star of David",
+    "bg": "sky",
+    "frame": "jewish"
+   },
+   {
+    "file": "bored-witch-kippah",
+    "label": "bored \u00b7 witch \u00b7 kippah",
+    "bg": "pink",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-emohair-kippah",
+    "label": "content \u00b7 emo hair \u00b7 kippah",
+    "bg": "dusk",
+    "frame": "jewish"
+   },
+   {
+    "file": "content-keffiyeh",
+    "label": "content \u00b7 keffiyeh \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "habibi"
+   },
+   {
+    "file": "happy-keffiyeh",
+    "label": "happy \u00b7 keffiyeh \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "habibi"
+   },
+   {
+    "file": "sleepy-keffiyeh",
+    "label": "sleepy \u00b7 keffiyeh",
+    "bg": "club",
+    "frame": "habibi"
+   },
+   {
+    "file": "content-crown-keffiyeh",
+    "label": "content \u00b7 keffiyeh \u00b7 crowned \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "habibi"
+   },
+   {
+    "file": "content-bisht",
+    "label": "content \u00b7 bisht",
+    "bg": "peach",
+    "frame": "habibi"
+   },
+   {
+    "file": "happy-bisht",
+    "label": "happy \u00b7 bisht \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "habibi"
+   },
+   {
+    "file": "happy-crown-bisht",
+    "label": "happy \u00b7 bisht \u00b7 crowned",
+    "bg": "ocean",
+    "frame": "habibi"
+   },
+   {
+    "file": "content-bisht-keffiyeh",
+    "label": "content \u00b7 bisht \u00b7 keffiyeh \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "habibi"
+   },
+   {
+    "file": "happy-bisht-keffiyeh",
+    "label": "happy \u00b7 bisht \u00b7 keffiyeh \u00b7 the room at night",
+    "bg": "night",
+    "frame": "habibi"
+   },
+   {
+    "file": "bored-bisht-keffiyeh",
+    "label": "bored \u00b7 bisht \u00b7 keffiyeh",
+    "bg": "aurora",
+    "frame": "habibi"
+   },
+   {
+    "file": "sad-bisht-keffiyeh",
+    "label": "sad \u00b7 bisht \u00b7 keffiyeh",
+    "bg": "plum",
+    "frame": "habibi"
+   },
+   {
+    "file": "content-crown-bisht-keffiyeh",
+    "label": "content \u00b7 bisht \u00b7 keffiyeh \u00b7 crowned \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "habibi"
+   },
+   {
+    "file": "dead",
+    "label": "ghost",
+    "bg": "mint",
+    "frame": "ghosts"
+   },
+   {
+    "file": "dead-crown",
+    "label": "ghost \u00b7 crowned",
+    "bg": "gold",
+    "frame": "ghosts"
+   },
+   {
+    "file": "dead-witch",
+    "label": "ghost \u00b7 witch \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "ghosts"
+   },
+   {
+    "file": "dead-pumpkin",
+    "label": "ghost \u00b7 pumpkin \u00b7 the room",
+    "bg": "room",
+    "frame": "ghosts"
+   },
+   {
+    "file": "dead-crown-witch",
+    "label": "ghost \u00b7 witch \u00b7 crowned \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "ghosts"
+   },
+   {
+    "file": "dead-zombie",
+    "label": "ghost \u00b7 zombie \u00b7 the Backrooms, lights low",
+    "bg": "backrooms-dim",
+    "frame": "ghosts"
+   },
+   {
+    "file": "content-full",
+    "label": "content \u00b7 the room at night",
+    "bg": "night",
+    "frame": "full"
+   },
+   {
+    "file": "happy-full",
+    "label": "happy",
+    "bg": "aurora",
+    "frame": "full"
+   },
+   {
+    "file": "sleepy-full",
+    "label": "sleepy",
+    "bg": "plum",
+    "frame": "full"
+   },
+   {
+    "file": "bored-full",
+    "label": "bored",
+    "bg": "violet",
+    "frame": "full"
+   },
+   {
+    "file": "sad-full",
+    "label": "sad",
+    "bg": "mint",
+    "frame": "full"
+   },
+   {
+    "file": "hungry-full",
+    "label": "hungry",
+    "bg": "gold",
+    "frame": "full"
+   },
+   {
+    "file": "content-crown-full",
+    "label": "content \u00b7 crowned \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-full",
+    "label": "happy \u00b7 crowned \u00b7 the room",
+    "bg": "room",
+    "frame": "full"
+   },
+   {
+    "file": "sleepy-crown-full",
+    "label": "sleepy \u00b7 crowned \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "full"
+   },
+   {
+    "file": "content-witch-full",
+    "label": "content \u00b7 witch \u00b7 the Backrooms, lights low",
+    "bg": "backrooms-dim",
+    "frame": "full"
+   },
+   {
+    "file": "happy-pumpkin-full",
+    "label": "happy \u00b7 pumpkin",
+    "bg": "sky",
+    "frame": "full"
+   },
+   {
+    "file": "content-zombie-full",
+    "label": "content \u00b7 zombie",
+    "bg": "pink",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-mummy-full",
+    "label": "happy \u00b7 mummy \u00b7 crowned",
+    "bg": "dusk",
+    "frame": "full"
+   },
+   {
+    "file": "content-emohair-full",
+    "label": "content \u00b7 emo hair \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-emohair-full",
+    "label": "happy \u00b7 emo hair \u00b7 crowned \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "full"
+   },
+   {
+    "file": "content-kippah-starofdavid-full",
+    "label": "content \u00b7 kippah \u00b7 Star of David",
+    "bg": "club",
+    "frame": "full"
+   },
+   {
+    "file": "happy-crown-kippah-full",
+    "label": "happy \u00b7 kippah \u00b7 crowned \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "full"
+   },
+   {
+    "file": "happy-starofdavid-full",
+    "label": "happy \u00b7 Star of David",
+    "bg": "peach",
+    "frame": "full"
+   },
+   {
+    "file": "content-bisht-keffiyeh-full",
+    "label": "content \u00b7 bisht \u00b7 keffiyeh \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "full"
+   },
+   {
+    "file": "happy-keffiyeh-full",
+    "label": "happy \u00b7 keffiyeh",
+    "bg": "ocean",
+    "frame": "full"
+   },
+   {
+    "file": "content-crown-bisht-keffiyeh-full",
+    "label": "content \u00b7 bisht \u00b7 keffiyeh \u00b7 crowned",
+    "bg": "sunset",
+    "frame": "full"
+   },
+   {
+    "file": "dead-full",
+    "label": "ghost \u00b7 the room at night",
+    "bg": "night",
+    "frame": "full"
+   },
+   {
+    "file": "act-feed-5250",
+    "label": "dinner \u00b7 the room",
+    "bg": "room",
+    "frame": "act"
+   },
+   {
+    "file": "act-feed-10500-emohair",
+    "label": "licking his lips \u00b7 emo hair",
+    "bg": "club",
+    "frame": "act"
+   },
+   {
+    "file": "act-feed-12600-crown",
+    "label": "full and happy \u00b7 crowned",
+    "bg": "sunset",
+    "frame": "act"
+   },
+   {
+    "file": "act-play-6180",
+    "label": "the kick",
+    "bg": "mint",
+    "frame": "act"
+   },
+   {
+    "file": "act-play-6480-witch",
+    "label": "kicked it \u00b7 witch \u00b7 the Spooky theme",
+    "bg": "spooky",
+    "frame": "act"
+   },
+   {
+    "file": "act-play-10800-crown",
+    "label": "got the ball \u00b7 crowned",
+    "bg": "pink",
+    "frame": "act"
+   },
+   {
+    "file": "act-wash-4350",
+    "label": "bath time \u00b7 the Backrooms",
+    "bg": "backrooms",
+    "frame": "act"
+   },
+   {
+    "file": "act-wash-4500-pumpkin",
+    "label": "bath time \u00b7 pumpkin \u00b7 the room at night",
+    "bg": "night",
+    "frame": "act"
+   },
+   {
+    "file": "act-poop-2100",
+    "label": "straining",
+    "bg": "sky",
+    "frame": "act"
+   },
+   {
+    "file": "act-poop-5100-zombie",
+    "label": "the aftermath \u00b7 zombie \u00b7 the Backrooms, lights low",
+    "bg": "backrooms-dim",
+    "frame": "act"
+   },
+   {
+    "file": "act-pet-600",
+    "label": "petted",
+    "bg": "club",
+    "frame": "act"
+   },
+   {
+    "file": "act-yawn-750-mummy",
+    "label": "a yawn \u00b7 mummy",
+    "bg": "violet",
+    "frame": "act"
+   },
+   {
+    "file": "act-dreidel-3450-kippah",
+    "label": "the dreidel \u00b7 kippah \u00b7 the Western Wall",
+    "bg": "kotel",
+    "frame": "act"
+   },
+   {
+    "file": "act-dreidel-4500-kippah-starofdavid",
+    "label": "the dreidel, spinning \u00b7 kippah \u00b7 Star of David",
+    "bg": "sky",
+    "frame": "act"
+   },
+   {
+    "file": "act-darbuka-4350-keffiyeh",
+    "label": "on the darbuka \u00b7 keffiyeh \u00b7 the Majlis",
+    "bg": "majlis",
+    "frame": "act"
+   },
+   {
+    "file": "act-darbuka-7950-bisht-keffiyeh",
+    "label": "the darbuka, an encore \u00b7 bisht \u00b7 keffiyeh",
+    "bg": "sunset",
+    "frame": "act"
+   },
+   {
+    "file": "act-kapparot-3900-kippah",
+    "label": "kapparot \u00b7 kippah \u00b7 the Western Wall at night",
+    "bg": "kotel-night",
+    "frame": "act"
+   },
+   {
+    "file": "act-falcon-3300-bisht-keffiyeh",
+    "label": "the falcon \u00b7 bisht \u00b7 keffiyeh \u00b7 the Majlis at night",
+    "bg": "majlis-night",
+    "frame": "act"
+   },
+   {
+    "file": "act-falcon-2400-keffiyeh",
+    "label": "the falcon \u00b7 keffiyeh",
+    "bg": "dusk",
+    "frame": "act"
+   }
+  ]
+ },
+ "version": "202610020350"
 }
